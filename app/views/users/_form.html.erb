@@ -10,7 +10,7 @@
 
         <div class="input-group mb-3">
           <%= f.label :email, class: "col-sm-2 col-form-label text-light" %><br />
-          <%= f.email_field  :description, class: "form-control shadow rounded", placeholder: "Enter an email address" %>
+          <%= f.email_field  :email, class: "form-control shadow rounded", placeholder: "Enter an email address" %>
         </div>
 
         <div class="input-group mb-3">
@@ -19,7 +19,7 @@
         </div>
 
         <div class="input-group mb-3 justify-content-center">
-          <%= f.submit class: "btn btn-outline-light btn-lg" %>
+          <%= f.submit "Sign up", class: "btn btn-outline-light btn-lg" %>
         </div>
       <% end %>
     </div>
